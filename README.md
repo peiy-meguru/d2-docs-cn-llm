@@ -1,3 +1,9 @@
+# 项目情况
+
+该项目是D2 Documentation的一个Fork仓库，主要解决缺少中文文档，无法快速入门的问题。该项目使用LLM翻译，本人并未进行任何审查、校对，请谨慎处理。
+
+当前该仓库通过Github Action自动部署到Github Pages。
+
 # D2 Documentation
 
 [![ci](https://github.com/terrastruct/d2-docs/actions/workflows/ci.yml/badge.svg)](https://github.com/terrastruct/d2-docs/actions/workflows/ci.yml)
