@@ -5,9 +5,9 @@ import { themes } from "prism-react-renderer";
 const config: Config = {
   title: "D2 Documentation",
   tagline: "D2 is a modern DSL that turns text to diagrams.",
-  url: "https://d2lang.com",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
+  url: "https://peiy-meguru.github.io",
+  baseUrl: "/d2-docs-cn-llm/",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   trailingSlash: true,
@@ -65,13 +65,16 @@ const config: Config = {
 
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "ko"],
+    locales: ["en", "ko", "zh-cn"],
     localeConfigs: {
       en: {
         label: "English",
       },
       ko: {
         label: "Korean (한국어)",
+      },
+      "zh-cn": {
+        label: "简体中文",
       },
     },
   },
