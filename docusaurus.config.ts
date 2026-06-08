@@ -6,7 +6,7 @@ const config: Config = {
   title: "D2 Documentation",
   tagline: "D2 is a modern DSL that turns text to diagrams.",
   url: "https://peiy-meguru.github.io",
-  baseUrl: "/d2-docs-cn-llm/",
+  baseUrl: "/d2lang/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
