@@ -13,4 +13,4 @@ import HelloWorld from '@site/static/d2/hello-world.d2';
 <div
 className="embedSVG" dangerouslySetInnerHTML={{__html: require('@site/static/img/generated/hello-world.svg2')}}></div>
 
-这里声明了两个形状 `x` 和 `y` 之间的连接，并带有标签 `hello world`。
+这里声明了两个 shape（形状）`x` 和 `y` 之间的 connection（连接），并带有 label（标签）`hello world`。
