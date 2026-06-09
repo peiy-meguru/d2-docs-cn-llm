@@ -19,7 +19,7 @@ curl -fsSL https://d2lang.com/install.sh | sh -s -- --dry-run
 curl -fsSL https://d2lang.com/install.sh | sh -s --
 ```
 
-按照指示操作（如有）。运行 `d2 version` 验证安装是否成功。
+如有提示，请按照指示操作。运行 `d2 version` 验证安装是否成功。
 
 如果需要卸载：
 
@@ -48,4 +48,4 @@ echo 'x -> y' > input.d2
 d2 -w input.d2 out.svg
 ```
 
-它应该会启动一个本地浏览器窗口，当你修改 `input.d2` 时它会自动刷新。在本教程的学习过程中，修改 `input.d2` 以跟随操作。
+它应该会启动一个本地浏览器窗口，当你修改 `input.d2` 时它会自动刷新。在学习本教程的过程中，你可以修改 `input.d2` 跟着操作。

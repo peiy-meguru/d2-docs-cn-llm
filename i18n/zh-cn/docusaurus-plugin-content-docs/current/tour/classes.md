@@ -6,7 +6,7 @@ import OrderedClasses from '@site/static/d2/ordered-classes.d2';
 
 # 类（Classes）
 
-类让你聚合属性并重复使用它们。
+类可以将属性聚合在一起，并重复使用。
 
 <CodeBlock className="language-d2">
     {StyleClasses1}
@@ -34,7 +34,7 @@ a -> b
 
 ## 覆写类（Overriding classes）
 
-如果你的对象定义了类也定义的属性，那么对象的属性会覆写类的属性。
+如果你的对象定义了类也定义的属性，那么对象的属性会覆盖类的属性。
 
 <CodeBlock className="language-d2">
     {StyleClasses2}

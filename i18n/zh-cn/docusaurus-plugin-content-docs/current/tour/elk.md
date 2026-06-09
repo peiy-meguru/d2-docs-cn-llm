@@ -2,7 +2,7 @@
 
 **[🔗 示例](/examples/elk)**
 
-ELK 是一个成熟的层次化布局引擎，由[基尔克里斯蒂安阿尔布莱希特大学](https://www.rtsys.informatik.uni-kiel.de/en/team)的一个学术研究小组积极维护。
+ELK 是一个成熟的层次化布局引擎，由[基尔大学](https://www.rtsys.informatik.uni-kiel.de/en/team)的一个学术研究小组积极维护。
 
 ## 参考
 

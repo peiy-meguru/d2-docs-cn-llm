@@ -14,7 +14,7 @@ import LegendHidden from '@site/static/d2/legend-hidden.d2';
 
 ## 隐藏形状
 
-由于 `a -> b` 声明了 3 个事物（1 个连接和 2 个形状），所以图例中会显示 3 个事物。如果你只想在图例中显示连接，可以将形状的不透明度设置为排除它们。
+由于 `a -> b` 声明了 3 个事物（1 个连接和 2 个形状），所以图例中会显示 3 个事物。如果你只想在图例中显示连接，可以设置形状的不透明度为 0 来排除它们。
 
 <CodeBlock className="language-d2">
     {LegendHidden}

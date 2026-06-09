@@ -14,7 +14,7 @@ import ContainersUnderscore from '@site/static/d2/containers-underscore.d2';
 
 ## 嵌套语法
 
-你可以通过创建嵌套映射来避免重复书写 container（容器）。
+你可以通过创建嵌套映射来避免重复书写 container（容器）的名称。
 
 <CodeBlock className="language-d2">
     {Containers2}

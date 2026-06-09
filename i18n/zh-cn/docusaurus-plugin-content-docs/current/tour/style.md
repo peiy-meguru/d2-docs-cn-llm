@@ -30,7 +30,7 @@ import StylesRoot from '@site/static/d2/styles-root.d2';
 <div style={{width: "400px", margin: "20px auto"}} className="embedSVG" dangerouslySetInnerHTML={{__html: require('@site/static/img/generated/styles-base.svg2')}}></div>
 
 :::note
-以下 SVG 使用 `direction: right` 渲染，但为了简洁，从显示的脚本中省略了。
+以下 SVG 使用 `direction: right` 渲染，但为了简洁，已从显示的脚本中省略。
 :::
 
 :::tip
@@ -287,7 +287,7 @@ CSS 颜色名称、十六进制代码或 CSS 渐变字符串的子集。
 - `stroke`：图表周围的边框
 - `stroke-width`
 - `stroke-dash`
-- `double-border`：双边框，一种流行的边框方式
+- `double-border`：双边框，一种流行的边框效果
 
 <CodeBlock className="language-d2">
     {StylesRoot}

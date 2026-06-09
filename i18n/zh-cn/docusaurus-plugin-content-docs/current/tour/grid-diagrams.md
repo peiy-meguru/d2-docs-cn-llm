@@ -23,7 +23,7 @@ import MdTable from '@site/static/d2/md-table.d2';
     {Grid}
 </CodeBlock>
 
-两个关键字实现了所有魔法：
+两个关键字实现了这一切：
 - `grid-rows`
 - `grid-columns`
 
@@ -109,7 +109,7 @@ grid-rows: 4
 
 ## 间距大小
 
-你可以使用 3 个关键字控制网格的间距大小：
+你可以使用以下 3 个关键字来控制网格的间距大小：
 - `vertical-gap`
 - `horizontal-gap`
 - `grid-gap`
@@ -120,7 +120,7 @@ grid-rows: 4
 
 ### 间距为 0
 
-`grid-gap: 0` 特别可以创建一些有趣的结构：
+`grid-gap: 0` 尤其可以创建一些有趣的结构：
 
 #### 比如这张日本地图
 

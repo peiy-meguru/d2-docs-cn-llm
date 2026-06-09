@@ -45,7 +45,7 @@ d2 themes
 
 ## 暗色主题（Dark theme）
 
-暗色主题默认不会设置，因此无论用户的系统偏好是浅色还是深色，你的图表看起来都一样。
+暗色主题默认不会自动切换，因此无论用户的系统偏好是浅色还是深色，你的图表看起来都一样。
 
 :::info
 本文档中的所有图表都采用暗色主题。尝试切换你的系统偏好（浅色/深色），看看它如何变化。
@@ -129,5 +129,5 @@ vars: {
 <WebPImage width={700} src={require('@site/static/img/color-code.png').default} webpSrc={require('@site/static/img/color-code.webp').default} alt="D2 color codes"/>
 
 :::info
-并非所有颜色代码目前都被使用，但随着 D2 的新功能推出，未来可能会有所改变。
+并非所有颜色代码目前都被使用，但随着 D2 新功能的推出，未来可能会有所改变。
 :::

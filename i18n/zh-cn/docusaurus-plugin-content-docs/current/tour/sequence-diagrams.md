@@ -63,7 +63,7 @@ D2 中的角色（actor）在其他工具中也称为"参与者"（participant�
 
 ### 序列图是 D2 对象
 
-与 D2 中的其他所有对象一样，它们可以被包含、连接、重新标记、重新设置样式，并像其他任何对象一样处理。
+与 D2 中的其他所有对象一样，它们可以被包含、连接、重新标记、重新设置样式，也可以像其他任何对象一样被处理。
 
 <CodeBlock className="language-d2">
     {SequenceDiagrams2}
@@ -95,7 +95,7 @@ D2 中的跨度（span）在其他工具中也称为"生命周期"（lifespan）
 D2 中的分组（group）在其他工具中也称为"片段"（fragment）、"边界组"（edge group）和"框架"（frame）。
 :::
 
-我们在之前的解释作用域规则的例子中已经见过一个例子。更正式地说，分组是 `sequence_diagram` 形状内的一个容器，它不与任何内容连接，但内部包含连接或对象。
+我们在之前解释作用域规则的例子中已经见过。更正式地说，分组是 `sequence_diagram` 形状内的一个容器，它不与任何内容连接，但内部包含连接或对象。
 
 <CodeBlock className="language-d2">
     {SequenceDiagramsGroup}

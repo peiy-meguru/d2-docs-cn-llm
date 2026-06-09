@@ -1,6 +1,6 @@
 # 贡献（Contributing）
 
-欢迎贡献！请查看 D2 的 Github 上关于贡献的完整文档：
+欢迎贡献！请查看 D2 的 GitHub 上关于贡献的完整文档：
 [https://github.com/terrastruct/d2/blob/master/docs/CONTRIBUTING.md](https://github.com/terrastruct/d2/blob/master/docs/CONTRIBUTING.md).
 
 ## 寻求帮助

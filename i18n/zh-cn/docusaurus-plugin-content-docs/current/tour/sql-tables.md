@@ -48,7 +48,7 @@ my_table: {
 
 ## 外键（Foreign Keys）
 
-以下是如何定义两个表之间的外键连接的示例：
+以下是一个展示如何定义两个表之间外键连接的示例：
 
 <CodeBlock className="language-d2">
     {Tables2}

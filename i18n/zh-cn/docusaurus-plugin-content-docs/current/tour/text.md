@@ -32,7 +32,7 @@ import Latex from '@site/static/d2/latex.d2';
 
 ## 支持大多数语言
 
-D2 很可能支持你想使用的任何语言，包括非拉丁语系的语言，如中文、日文、韩文，甚至 emoji！
+D2 很可能支持你想使用的任何语言，包括非拉丁字母的语言，如中文、日文、韩文，甚至 emoji！
 
 <div className="embedSVG" dangerouslySetInnerHTML={{__html: require('@site/static/img/generated/unicode.svg2')}}></div>
 
@@ -48,7 +48,7 @@ D2 很可能支持你想使用的任何语言，包括非拉丁语系的语言�
 
 关于 LaTeX 块的几点说明：
 
-- LaTeX 块不响应 `font-size` 样式。你需要在 LaTeX 脚本内部使用以下命令来设置样式：
+- LaTeX 块不受 `font-size` 样式影响。你需要在 LaTeX 脚本内部使用以下命令来设置样式：
   - `\tiny{ }`
   - `\small{ }`
   - `\normal{ }`
@@ -82,7 +82,7 @@ D2 还提供了方便的短别名：
 - `rb` → `ruby`
 - `ts` → `typescript`
 
-如果某种语言无法识别，D2 将回退为纯文本渲染，不进行语法高亮。
+如果某种语言无法识别，D2 将回退到纯文本渲染，不进行语法高亮。
 :::
 
 ## 进阶：非 Markdown 文本

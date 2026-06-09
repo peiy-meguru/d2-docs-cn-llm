@@ -7,7 +7,7 @@ import Example from '@site/static/bespoke-d2/terminal-theme.d2';
 
 # D2 导览
 
-**D2** 是一种图表脚本语言，可以将文本转换为图表。它代表 **Declarative Diagramming（声明式图表）**。声明式，即你描述你想要图表化的内容，它生成图像。
+**D2** 是一种图表脚本语言，可以将文本转换为图表。它代表 **Declarative Diagramming（声明式图表）**。所谓声明式，即你只需描述想要图表化的内容，它会自动生成图像。
 
 例如，下载 CLI，创建一个名为 `input.d2` 的文件，复制粘贴以下内容，运行此命令，即可得到下图。
 
@@ -39,7 +39,7 @@ D2 的源代码托管在此：
 :::
 
 :::info
-对于每个 D2 代码片段，你可以悬停以直接在 Playground 中打开并进行调试。
+对于每个 D2 代码片段，你可以悬停并在 Playground 中直接打开和调试。
 
 有些例外，例如使用导入（import）功能的代码片段。
 :::

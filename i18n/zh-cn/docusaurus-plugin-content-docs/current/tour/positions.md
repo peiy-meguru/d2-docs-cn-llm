@@ -63,7 +63,7 @@ D2 允许你将元素定位在图表周围的固定点上。
 
 ### 外部和边框
 
-在定位标签和图标时，除了 `near` 在其他地方可以接受的值之外，还可以添加 `outside-` 前缀来指定在形状边界框外部的定位。
+在定位标签和图标时，除了 `near` 在其他地方可以接受的值之外，还可以使用 `outside-` 前缀来指定位于形状边界框外部的定位。
 
 `outside-top-left`、`outside-top-center`、`outside-top-right`、
 
@@ -83,7 +83,7 @@ D2 允许你将元素定位在图表周围的固定点上。
 
 ## 工具提示附近（Tooltip near）
 
-通常，`tooltip` 是悬停效果。但是，如果你指定了 `near` 字段，它将永久显示。
+通常，`tooltip` 是悬停时显示的效果。但是，如果你指定了 `near` 字段，它将永久显示。
 
 <CodeBlock className="language-d2">
     {TooltipNear}
