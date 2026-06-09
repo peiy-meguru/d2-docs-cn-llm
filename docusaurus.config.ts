@@ -187,6 +187,10 @@ const config: Config = {
           label: "Playground",
         },
         {
+          type: "localeDropdown",
+          position: "right",
+        },
+        {
           type: "custom-iconLink",
           position: "right",
           icon: {
