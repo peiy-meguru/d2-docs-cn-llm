@@ -4,7 +4,7 @@
   },
   "private": true,
   "scripts": {
-    "dev": "docusaurus start --port 8888",
+    "dev": "docusaurus start --port 8888 --host 0.0.0.0",
     "prod-serve": "yarn run prod && yarn run serve",
     "serve": "docusaurus serve --port 8899",
     "prod": "docusaurus build",
@@ -14,10 +14,10 @@
     "spell-check": "cspell \"**/*.md\" --config .cspell.json --no-exit-code --quiet | grep 'fix:' || echo 'No spelling errors found'"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.8.1",
-    "@docusaurus/faster": "^3.8.1",
-    "@docusaurus/plugin-client-redirects": "^3.8.1",
-    "@docusaurus/preset-classic": "^3.8.1",
+    "@docusaurus/core": "^3.10.1",
+    "@docusaurus/faster": "^3.10.1",
+    "@docusaurus/plugin-client-redirects": "^3.10.1",
+    "@docusaurus/preset-classic": "^3.10.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "docusaurus-plugin-sass": "^0.2.6",
