@@ -16,18 +16,19 @@ import ExampleCode from "@site/static/bespoke-d2/terminal-theme.d2";
 export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+  const docsUrl = useBaseUrl("/tour/intro/");
 
   const renderDirectoryBanner = () => {
     return (
       <div className="Directory__Banner">
         <img
           className="Directory__Banner--Circles"
-          src="/img/directory/circles.svg"
+          src={useBaseUrl("/img/directory/circles.svg")}
           alt="Decorative circles"
         />
         <img
           className="Directory__Banner--Icon"
-          src="/img/d2_graphic.svg"
+          src={useBaseUrl("/img/d2_graphic.svg")}
           alt="D2 logo"
         />
         <h1>D2: Declarative Diagramming</h1>
@@ -35,7 +36,7 @@ export default function Home() {
         <button
           className="Directory__Banner--Button"
           onClick={() => {
-            window.location.href = "/tour/intro/";
+            window.location.href = docsUrl;
           }}
         >
           Explore docs
