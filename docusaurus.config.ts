@@ -13,8 +13,12 @@ const config: Config = {
   trailingSlash: true,
 
   future: {
-    faster: true,
     v4: true,
+  },
+  markdown: {
+    mdx1Compat: {
+      comments: true,
+    },
   },
 
   headTags: [
