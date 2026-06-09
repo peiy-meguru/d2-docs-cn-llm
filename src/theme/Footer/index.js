@@ -1,6 +1,7 @@
 import React from "react";
 import { useThemeConfig } from "@docusaurus/theme-common";
 import { splitNavbarItems } from "@docusaurus/theme-common/internal";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import SearchBar from "@theme/SearchBar";
 import NavbarItem from "@theme/NavbarItem";
@@ -16,7 +17,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <div className="Footer--Top">
-        <img className="Footer__Logo" src="/img/d2_logo.png" alt="D2 logo" />
+        <img className="Footer__Logo" src={useBaseUrl("/img/d2_logo.png")} alt="D2 logo" />
         <div className="Footer__Mobile">
           <div className="Footer__Mobile--Icons">
             {icons.map((item, i) => (
@@ -28,7 +29,7 @@ function Footer() {
       <div className="Footer__Right">
         <a className="Footer__Link" href="https://terrastruct.com">
           <span>
-            Created by <img src="/img/terrastruct_logo.svg" alt="Terrastruct logo" />
+            Created by <img src={useBaseUrl("/img/terrastruct_logo.svg")} alt="Terrastruct logo" />
           </span>
         </a>
         |<span>© 2025 Terrastruct, Inc.</span>
